@@ -1,0 +1,25 @@
+{
+    "selected-streams": [
+        {
+            "selected-stream": "users",
+            "key-properties": [
+                "id"
+            ],
+            "selected-fields": [
+                "id",
+                "first_name",
+                "last_name"
+            ]
+        },
+        {
+            "selected-stream": "company",
+            "key-properties": [
+                "id"
+            ],
+            "selected-fields": [
+                "id",
+                "name"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,14 @@
+{
+    "selected-streams": [
+        {
+            "selected-stream": "users",
+            "key-properties": [
+                "id"
+            ],
+            "selected-fields": [
+                "id",
+                "email"
+            ]
+        }
+    ]
+}

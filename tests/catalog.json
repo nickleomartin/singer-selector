@@ -1,0 +1,65 @@
+{
+    "streams": [
+        {
+            "tap_stream_id": "users",
+            "key_properties": [
+                "id"
+            ],
+            "schema": {
+                "properties": {
+                    "id": {
+                        "type": [
+                            "null",
+                            "integer"
+                        ]
+                    },
+                    "email": {
+                        "type": [
+                            "null",
+                            "string"
+                        ]
+                    },
+                    "plan_id": {
+                        "type": [
+                            "null",
+                            "integer"
+                        ]
+                    }
+                },
+                "type": "object",
+                "additionalProperties": false
+            },
+            "stream": "users",
+            "metadata": [
+                {
+                    "breadcrumb": [],
+                    "metadata": {
+                        "table-key-properties": [
+                            "id"
+                        ],
+                        "forced-replication-method": "FULL_TABLE",
+                        "inclusion": "available"
+                    }
+                },
+                {
+                    "breadcrumb": [
+                        "properties",
+                        "email"
+                    ],
+                    "metadata": {
+                        "inclusion": "available"
+                    }
+                },
+                {
+                    "breadcrumb": [
+                        "properties",
+                        "plan_id"
+                    ],
+                    "metadata": {
+                        "inclusion": "available"
+                    }
+                }
+            ]
+        }
+    ]
+}
